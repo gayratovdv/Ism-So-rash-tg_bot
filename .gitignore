@@ -1,0 +1,42 @@
+# Python cache va kompilyatsiya qilingan fayllar
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual muhit papkasi
+venv/
+env/
+
+# O'rnatilgan kutubxonalar ro'yxati
+*.egg-info/
+*.eggs/
+*.dist-info/
+
+# IDE sozlamalari
+.vscode/
+.idea/
+
+# Log va vaqtinchalik fayllar
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+*.DS_Store  # Mac OS uchun
+
+# Pip freeze output
+pip-log.txt
+
+# Jupyter Notebook checkpointlari
+.ipynb_checkpoints/
+
+# Django yoki Flask migrations (agar ishlatilsa)
+migrations/
+
+# Yordamchi fayllar
+*.sqlite3
+.env  # Parollar va konfiguratsiyalar uchun yashirin fayl
+config.json
+
+# Git tomonidan kuzatilmaydigan boshqa fayllar
+node_modules/
